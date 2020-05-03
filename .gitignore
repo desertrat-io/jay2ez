@@ -234,3 +234,6 @@ $RECYCLE.BIN/
 *.lnk
 .idea
 .iml
+.run
+# Ignore Gradle build output directory
+build
