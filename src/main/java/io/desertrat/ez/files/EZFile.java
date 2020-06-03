@@ -20,10 +20,17 @@ public class EZFile {
         return null;
     }
 
-    public File putContents(String filename, String content, String mode) {
+    public File putContents(String fileName, String content, String mode) {
         return null;
     }
     public File putContents(String fileName, String content, EZFileAttributes mode) {
+        return null;
+    }
+
+    public File putContents(String fileName, byte[] content, EZFileAttributes mode) {
+        return null;
+    }
+    public File putContents(String fileName, byte[] content, int mode) {
         return null;
     }
 
