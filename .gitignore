@@ -19,7 +19,6 @@ Sessionx.vim
 *~
 tags
 [._]*.un~
-*~
 \#*\#
 /.emacs.desktop
 /.emacs.desktop.lock
@@ -36,7 +35,6 @@ tramp
 *.rel
 /auto/
 .cask/
-dist/
 flycheck_*.el
 /server/
 .projectile
@@ -64,7 +62,6 @@ flycheck_*.el
 xcuserdata/
 *.xcscmblueprint
 *.xccheckout
-build/
 DerivedData/
 *.moved-aside
 *.pbxuser
@@ -156,7 +153,6 @@ _xmsgs/
 bin/
 tmp/
 *.tmp
-*.bak
 *.swp
 *~.nib
 local.properties
@@ -197,7 +193,6 @@ gradle-app.setting
 *.tar.gz
 *.rar
 hs_err_pid*
-*~
 .fuse_hidden*
 .directory
 .Trash-*

@@ -1,7 +1,7 @@
 os: linux
 dist: xenial
 jdk: oraclejdk11
-
+install: gradle wrapper --gradle-version 6.3
 language: java
 
 before_cache:
