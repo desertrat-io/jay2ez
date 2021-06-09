@@ -4,11 +4,13 @@ import java.io.File;
 
 public class EZFile {
 
+
     public enum EZFileAttributes {
-        NEW, APPEND, PREPEND, REPLACE
+        NEW, APPEND, PREPEND, REPLACE, READ, NEW_OR_APPEND, NEW_OR_PREPEND, NEW_OR_REPLACE
     }
 
     public File touch(String filename) {
+
         return null;
     }
 
@@ -16,13 +18,6 @@ public class EZFile {
         return null;
     }
 
-    public File putContents(String fileName, String content, int mode) {
-        return null;
-    }
-
-    public File putContents(String fileName, String content, String mode) {
-        return null;
-    }
     public File putContents(String fileName, String content, EZFileAttributes mode) {
         return null;
     }
